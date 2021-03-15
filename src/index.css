@@ -1,0 +1,66 @@
+button,
+.button {
+	margin-bottom: 0 !important;
+	margin-right: .5rem;
+}
+.tab{color: white;
+	background: linear-gradient(90deg, rgba(83,174,203,1) 0%,rgb(74, 121, 131) 35% ,rgba(124,124,204,1) 88%,
+	rgba(98,94,169,1) 100%  )
+}
+
+.addform input,.editform input ,.addform select,.editform select,.orders select{
+	width: 200px;
+	margin: 10px;
+	margin-top: 30px;
+	display: inline;
+	color: wheat;
+	background-color: transparent !important;
+}
+.addform button,.editform button{
+	margin-left: 30%;
+	margin-top: 10px;
+}
+.oo{
+	color: white;
+	background: linear-gradient(#eb3349 0%, #f45c43 100%);
+}
+::placeholder{
+	background: transparent;
+	color: wheat !important;
+}
+.addform select ::after{
+	background-color: transparent;
+}
+	
+.view{background-image: url("https://media.istockphoto.com/vectors/your-pharmacy-store-website-page-design-with-3d-illustration-of-open-vector-id1166347372");
+	background-size: cover;
+	background-repeat: none;
+	padding-top: 100px;
+	justify-content: center;
+	height: 100vh;
+	
+	display:grid
+
+
+}
+.view1{
+	position: absolute;
+	top:30%;
+	left:40%
+}
+.view1 a{height:30px !important;
+	width:300px;
+	margin-bottom: 50px;
+	display: block;
+
+	
+}
+.section button{
+	display: block;
+	margin: auto 0px;
+
+}
+
+.orders{
+	margin-top: 100px;
+}
